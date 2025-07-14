@@ -1,0 +1,102 @@
+[
+    {
+        "fecha": "2025-07-12T23:11",
+        "cliente": "Hospital 2",
+        "tipo": "RED",
+        "ingeniero": "Jovani Utrera",
+        "descripcion": "Se reporta falla de acceso al sistema de gesti\u00f3n de banco de sangre. No es posible realizar el acceso debido a que el cable de red se encuentra desconectado.",
+        "estatus": "Finalizado",
+        "inicio": "2025-07-13T05:42",
+        "fin": "2025-07-13T05:42"
+    },
+    {
+        "fecha": "2025-07-12T23:13",
+        "cliente": "Hospital 1",
+        "tipo": "HARDWARE",
+        "ingeniero": "Iv\u00e1n Corona",
+        "descripcion": "Se presenta falla en equipo de consultorio del banco de sangre del Hospital 1, se identifica problemas con disco duro. ",
+        "estatus": "Finalizado",
+        "inicio": "2025-07-12T23:14",
+        "fin": "2025-07-13T05:41"
+    },
+    {
+        "fecha": "2025-07-12T23:38",
+        "cliente": "Hospital 2",
+        "tipo": "APOYO DE PROCESOS",
+        "ingeniero": "Ricardo Gallardo",
+        "descripcion": "Se requiere apoyo con el proceso de registro de muestras en el sistema de gesti\u00f3n de banco de sangre.",
+        "estatus": "Finalizado",
+        "inicio": "2025-07-12T23:39",
+        "fin": "2025-07-13T05:45"
+    },
+    {
+        "fecha": "2025-07-12T23:45",
+        "cliente": "Hospital 3",
+        "tipo": "CONFIGURACIONES",
+        "ingeniero": "Victor Dominguez",
+        "descripcion": "Requieren configuraci\u00f3n adicional para un nuevo centro distribuidor",
+        "estatus": "Finalizado",
+        "inicio": "2025-07-13T05:46",
+        "fin": "2025-07-13T05:48"
+    },
+    {
+        "fecha": "2025-07-12T23:47",
+        "cliente": "Hospital 2",
+        "tipo": "RED",
+        "ingeniero": "Ivan Corona",
+        "descripcion": "Se reporta falla de acceso a internet en el banco de sangre del Hospital 2",
+        "estatus": "Finalizado",
+        "inicio": "2025-07-13T05:49",
+        "fin": "2025-07-13T05:49"
+    },
+    {
+        "fecha": "2025-07-13T17:11",
+        "cliente": "Hospital 1",
+        "tipo": "SOFTWARE",
+        "ingeniero": "Jose Porras",
+        "descripcion": "Se reporta falla de impresi\u00f3n en el sistema, no se pueden etiquetar muestras ni bolsas de sangre",
+        "estatus": "Sin atenci\u00f3n",
+        "inicio": "2025-07-13T19:10",
+        "fin": "2025-07-13T19:13"
+    },
+    {
+        "fecha": "2025-07-13T17:10",
+        "cliente": "Hospital 1",
+        "tipo": "SOFTWARE",
+        "ingeniero": "Ivan Corona",
+        "descripcion": "No es posible imprimir etiquetas ni para muestras ni para bolsas de sangre",
+        "estatus": "Sin atenci\u00f3n",
+        "inicio": "2025-07-13T19:10",
+        "fin": "2025-07-13T19:16"
+    },
+    {
+        "fecha": "2025-07-13T17:50",
+        "cliente": "Hospital 3",
+        "tipo": "SOFTWARE",
+        "ingeniero": "Gerardo Alfaro",
+        "descripcion": "El servidor no responde, asistir de forma inmediata al hospital",
+        "estatus": "Sin atenci\u00f3n",
+        "inicio": "2025-07-13T18:30",
+        "fin": "2025-07-13T19:25"
+    },
+    {
+        "fecha": "2025-07-13T18:30",
+        "cliente": "Hospital 1",
+        "tipo": "APOYO DE PROCESOS",
+        "ingeniero": "Jose Porras",
+        "descripcion": "El usuario comenta que realiz\u00f3 un registro con grupo sangu\u00edneo equivocado y solicita apoyo para modificarlo.",
+        "estatus": "Sin atenci\u00f3n",
+        "inicio": "2025-07-13T18:40",
+        "fin": "2025-07-13T18:50"
+    },
+    {
+        "fecha": "2025-07-13T18:30",
+        "cliente": "Hospital 2",
+        "tipo": "APOYO DE PROCESOS",
+        "ingeniero": "Jose Porras",
+        "descripcion": "El usuario no puede visualizar estad\u00edsticas, se presenta pantalla de error.",
+        "estatus": "Sin atenci\u00f3n",
+        "inicio": "2025-07-13T18:52",
+        "fin": "2025-07-13T18:58"
+    }
+]

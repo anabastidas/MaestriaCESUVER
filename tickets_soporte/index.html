@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Tickets - Soporte IT</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Registro de Tickets - Soporte IT</h1>
+  
+  <button onclick="toggleFormulario()">➕ Registrar nuevo ticket</button>
+<div id="formulario" style="display:none;">
+
+
+  <form id="ticketForm">
+    <label>Fecha y hora del reporte:</label>
+    <input type="datetime-local" id="fechaReporte" required>
+
+    <label>Cliente:</label>
+    <select id="cliente" required>
+      <option value="Hospital 1">Hospital 1</option>
+      <option value="Hospital 2">Hospital 2</option>
+      <option value="Hospital 3">Hospital 3</option>
+    </select>
+
+    <label>Tipo de incidencia:</label>
+    <select id="tipo" required>
+      <option value="SOFTWARE">SOFTWARE</option>
+      <option value="HARDWARE">HARDWARE</option>
+      <option value="RED">RED</option>
+      <option value="APOYO DE PROCESOS">APOYO DE PROCESOS</option>
+      <option value="CONFIGURACIONES">CONFIGURACIONES</option>
+    </select>
+
+    <label>Nombre del ingeniero:</label>
+    <input type="text" id="ingeniero" required>
+
+    <label>Descripción de la incidencia:</label>
+    <textarea id="descripcion" required></textarea>
+
+    <label>Estatus:</label>
+    <select id="estatus" required>
+      <option value="Sin atención">Sin atención</option>
+      <option value="En desarrollo">En desarrollo</option>
+      <option value="Finalizado">Finalizado</option>
+    </select>
+
+    <label>Fecha y hora de inicio de atención:</label>
+    <input type="datetime-local" id="inicio">
+
+    <label>Fecha y hora de finalización:</label>
+    <input type="datetime-local" id="fin">
+
+    <button type="submit">Registrar Ticket</button>
+  </form>
+</div>
+  <h2>Listado de Tickets</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Fecha</th><th>Cliente</th><th>Tipo</th><th>Ingeniero</th><th>Descripción</th><th>Estatus</th><th>Inicio</th><th>Fin</th>
+      </tr>
+    </thead>
+    <tbody id="tablaTickets"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
